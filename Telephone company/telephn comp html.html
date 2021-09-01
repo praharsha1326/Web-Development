@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill</title>
+	<script src="telephn company.js">
+	</script>
+
+	<style>
+		*{
+			margin:  10px auto 0;
+		}
+		fieldset{
+			width: 500px;
+		}
+		legend{
+			color: red;
+			font-size: 28px;
+            font-weight: bold;
+		}
+
+		table, td{
+			padding:  5px;
+		}
+
+		td{
+			padding-right: 40px;
+		}
+		
+	</style>
+</head>
+<body>
+	<fieldset>
+		<legend>Bill</legend>
+		<form onsubmit= 'return form_validate();'>
+			<table>
+				<tr>
+					<td><label for="i_calls">Enter number of calls</label></td>
+					<td><input type="numbers" name="calls" id="i_calls"></td>
+				</tr>
+				<tr>
+					<td><label for="i_sms">Enter SMS</label></td>
+					<td><input type="numbers" name="sms" id="i_sms"></td>
+				</tr>
+				<tr>
+					<td><input type="reset" name="reset" value="Reset" id="i_reset" /></td>
+					<td><input type="submit" name="submit" value="Submit" id="i_submit" /></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>
