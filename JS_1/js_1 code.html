@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>
+            ASSIGNMENT 4
+        </TITLE>
+        <SCRIPT SRC='js_1 js code.js'> </SCRIPT>
+        <STYLE>
+            legend{
+                font-size:24px;
+                color:black;
+                font-weight:bolder;
+            }
+            .string{
+                width:280px;
+                font-size:18px;
+            }
+            .string1{
+                width:280px;
+                font-size:21px;
+                color:darkslategrey;
+            }
+            table{
+                width:120px;
+                margin:0 auto;
+                padding:29px;
+                column-gap: 420px;
+            }
+            .button{
+                font-size:15px;
+                
+            }
+        </STYLE>
+    </HEAD>
+    <BODY>
+        <FIELDSET>
+            <LEGEND><STRONG> STRING </STRONG></LEGEND>
+            <FORM onsubmit="return validString();" autocomplete="off">
+                <TABLE >
+                    <TR>
+                        <TH class="string1"><BR/>
+                            <LABEL FOR='i_string'> INPUT:&nbsp;&nbsp; </LABEL>
+                        </TH>
+                        <TD><br/>
+                            <INPUT class="string" TYPE="TEXT" ID="i_string" NAME="string" PLACEHOLDER="Two strings & number of operations"/>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TH><BR/>
+                            <INPUT class="button" TYPE="RESET" VALUE="RESET" NAME="RESET" ID="RESET"/>
+                        </TH>
+                        <TD><BR/>
+                            <INPUT class="button" TYPE="SUBMIT" VALUE="CALCULATE" NAME="SUBMIT" ID="SUBMIT"/>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </FORM>
+        </FIELDSET>
+    </BODY>
+</HTML>
