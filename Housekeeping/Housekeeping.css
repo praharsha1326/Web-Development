@@ -1,0 +1,27 @@
+h2{
+    color: #0A5A78;
+}
+mark{
+    background-color:#EEB500 ;
+    color: white;
+}
+p{
+    color: #4C4C4C ;
+}
+td{
+    vertical-align: top;
+}
+img{
+    height: 400px;
+    width: 350px;
+}
+.button1{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    font-size: 12px ;
+    margin: 4px 4px 4px 20px;
+    cursor: pointer;
+}
