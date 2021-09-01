@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Replace Words</title>
+	<script src="replace js.js">
+	</script>
+
+	<style>
+		*{
+			margin: 10px auto 0px;
+		}
+		table{
+			padding:  20px;
+		}
+
+		fieldset{
+			width: 500px;
+		}
+
+		h1{
+			color: red;
+			text-align: center;
+		}
+
+		td{
+			padding-bottom: 10px;
+			padding-right: 50px;
+		}
+
+		.ab{
+			padding-top: 20px;
+			padding-left: 30px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<h1>Text Replacer</h1>
+	<fieldset>
+		<form onsubmit="return form_validate();">
+			<table>
+				<tr>
+					<td><label for="i_enter_text">Enter Text</label></td>
+					<td><input type="text" id="i_enter_text" name="enter_text" /></td>
+				</tr>
+				<tr>
+					<td><label for="i_replace">Enter word to replace</label></td>
+					<td><input type="text" name="replace" id="i_replace"></td>
+				</tr>
+				<tr>
+					<td><label for="i_replaced">Enter word to replaced with</label></td>
+					<td><input type="text" name="replaced" id="i_replaced"></td>
+				</tr>
+				<tr>
+					<td class="ab"><input type="reset" name="reset" id="i_reset" value="Reset"></td>
+					<td class="ab"><input type="submit" name="submit" id="i_submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>
+
