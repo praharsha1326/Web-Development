@@ -1,0 +1,16 @@
+body{
+	background-image: url("backgrounds.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 650px 
+}
+
+h1{
+	font-family: Algerian;
+	color: #99722b;
+}
+
+p{
+	font-family: Algerian;
+	color: #99722b;
+}
