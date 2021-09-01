@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <TITLE>
+        TIME IN 24HR FORMAT
+    </TITLE>
+    <SCRIPT SRC='js_2_js.js'> </SCRIPT>
+    <STYLE>
+        TABLE{
+            MARGIN:0 AUTO;
+            FONT-SIZE: 20PX;
+            WIDTH:600PX;
+        }
+        TABLE TD{
+                PADDING:6PX;
+                FONT-SIZE:18PX;
+                }
+        LEGEND{
+            FONT-SIZE:24PX;
+            COLOR:BROWN;
+        }
+        .SUB:HOVER{
+            BORDER-COLOR:BLUE;
+            BACKGROUND-COLOR: LIGHTBLUE;
+        }
+        .SUB{
+            FONT-SIZE: 18PX;
+            FONT-WEIGHT:NORMAL;
+            WIDTH:120PX
+        }
+        .INP{
+            FONT-SIZE: 16PX;
+        }
+        .INP1{
+            COLOR:RGB(230, 25, 18);
+            FONT-WEIGHT: BOLD;
+        }
+    </STYLE>
+</HEAD>
+<BODY>
+    <FIELDSET>
+        <LEGEND> TIME CONVERSION </LEGEND>
+        <FORM onsubmit='return timeConversion();'>
+            <TABLE>
+                <TR>
+                    <TH><BR/>
+                        <LABEL CLASS= "INP1" FOR='INPUT'> INPUT :&nbsp; </LABEL>
+                    </TH>
+                    <TD><BR/>
+                    
+                        <INPUT CLASS='INP' TYPE='TEXT' ID='INPUT' NAME='INPUT' PLACEHOLDER='ENTER TIME'/>
+                    </TD>
+                </TR>
+                <TR>
+                    <TH><BR/>
+                        <INPUT CLASS='SUB' TYPE="RESET" VALUE='RESET' NAME='RESET'/>
+                    </TH>
+                    <TD  ><BR/>
+                        <INPUT CLASS='SUB' TYPE='SUBMIT' VALUE='CALCULATE' NAME='SUBMIT' /></TD>
+
+                </TR>
+            </TABLE>
+        </FORM>
+</BODY>
+</HTML>
